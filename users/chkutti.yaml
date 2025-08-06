@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: chkutti
+  annotations:
+    backstage.io/managed-by-location: url:https://github.com/chkutti/your-repo/blob/main/catalog-info.yaml
+spec:
+  profile:
+    displayName: Kutti Ch
+    email: chkutti@gmail.com
+    picture: https://example.com/avatar.png
+  memberOf: [team-frontend]
