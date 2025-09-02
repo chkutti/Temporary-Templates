@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: dummy-service
   description: A dummy service for testing Backstage catalog import
+  annotations:
+    github.com/project-slug: https://github.com/chkutti/Temporary-Templates
   tags:
     - test
     - dummy
